@@ -1,0 +1,22 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(5, 2fr);
+}
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.imagen{
+    height: 300px;
+    width: auto;
+}
+.div{
+    background-color: rgb(69, 69, 230);
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 15px rgb(158, 158, 248);
+    width: 300px;
+    border-radius: 20px;
+    justify-items: center;
+}
